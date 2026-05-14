@@ -1,5 +1,7 @@
 # yt-dock
 
+![Main Page Screenshot - Dark Mode](assets/Main_Page_Dark.png)
+
 A self-hosted YouTube transcript library that runs as a single Docker container.
 No API keys. No cloud. Your data lives in a file on your machine. After embedding, the build runs at single digit millisecond latency on CPU and less than 400mb of RAM.
 
