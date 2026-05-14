@@ -1,0 +1,2 @@
+# This file keeps the data/ directory in version control.
+# transcripts.db (your actual data) is gitignored and will never be committed.

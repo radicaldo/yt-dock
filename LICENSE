@@ -1,0 +1,53 @@
+MIT License — Personal and Educational Use Only
+
+Copyright (c) 2026
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software for PERSONAL, LOCAL, NON-COMMERCIAL,
+AND EDUCATIONAL PURPOSES ONLY, subject to the following conditions:
+
+1. PERMITTED USE
+   This Software may be used to fetch, store, and search YouTube transcripts
+   for your own personal study, research, or educational purposes on your own
+   hardware. You may modify the Software for those same purposes.
+
+2. PROHIBITED USE
+   You may NOT use this Software to:
+   - Redistribute, publish, or commercially exploit YouTube transcripts or any
+     content derived from them without the express permission of the original
+     content creators and rights holders.
+   - Build products or services that circumvent YouTube's Terms of Service.
+   - Aggregate or scrape content at scale in violation of YouTube's Terms of
+     Service or robots.txt.
+   - Redistribute this Software as part of a paid product or service.
+
+3. CREATOR RIGHTS
+   YouTube content belongs to its creators. This tool provides a convenience
+   layer over publicly available caption data. You are responsible for
+   respecting the intellectual property rights of every creator whose content
+   you access through this tool.
+
+4. TERMS OF SERVICE COMPLIANCE
+   You are solely responsible for ensuring your use of this Software complies
+   with YouTube's Terms of Service (https://www.youtube.com/t/terms) and any
+   applicable laws in your jurisdiction.
+
+5. NO WARRANTY — NO LIABILITY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+   DAMAGES, OR OTHER LIABILITY — WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+   OTHERWISE — ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE
+   USE OR OTHER DEALINGS IN THE SOFTWARE, INCLUDING BUT NOT LIMITED TO:
+   - Copyright infringement claims arising from your use of fetched content.
+   - Violations of YouTube's Terms of Service.
+   - Any consequences of misuse, redistribution, or commercial exploitation
+     of content obtained through this tool.
+
+   YOU USE THIS SOFTWARE ENTIRELY AT YOUR OWN RISK.
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.

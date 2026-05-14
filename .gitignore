@@ -1,0 +1,10 @@
+data/*.db
+data/*.duckdb
+__pycache__/
+*.pyc
+.env
+docs/
+.pytest_cache/
+tests/
+requirements-dev.txt
+.claude/

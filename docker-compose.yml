@@ -1,0 +1,41 @@
+name: yt-dock
+
+services:
+  yt-dock:
+    build:
+      context: .
+      args:
+        ENABLE_CUDA: "false"
+    image: yt-xscript
+    container_name: yt-dock
+    ports:
+      - "${YTDOCK_PORT:-8000}:8000"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
+    environment:
+      - DATA_DIR=/data
+
+  # GPU variant — run with: docker compose --profile gpu up --build
+  yt-dock-gpu:
+    build:
+      context: .
+      args:
+        ENABLE_CUDA: "true"
+    image: yt-xscript-gpu
+    container_name: yt-dock-gpu
+    profiles: ["gpu"]
+    ports:
+      - "${YTDOCK_PORT:-8000}:8000"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
+    environment:
+      - DATA_DIR=/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
