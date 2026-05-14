@@ -7,11 +7,6 @@ No API keys. No cloud. Your data lives in a file on your machine. After embeddin
 ![Docker](https://img.shields.io/badge/docker-compose-2496ED?logo=docker&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)
 
-<!-- TODO before publishing: add a screenshot at assets/screenshot.png, then
-     uncomment the line below. (Do NOT put it in docs/ -- that dir is gitignored.)
-![yt-dock UI](assets/screenshot.png)
--->
-
 ## Contents
 
 - [Why I Built This](#why-i-built-this)
@@ -308,21 +303,17 @@ Show everything in my transcript library.
 yt-dock/
 ├── app/
 │   ├── main.py         # FastAPI server — all endpoints
-│   ├── rrf.py          # Reciprocal Rank Fusion helper (pure, unit-tested)
+│   ├── rrf.py          # Reciprocal Rank Fusion helper
 │   └── index.html      # Browser UI (single file, no build step)
 ├── scripts/
 │   ├── start.ps1       # Windows start
 │   ├── stop.ps1        # Windows stop
 │   ├── start.sh        # Linux / macOS start
 │   └── stop.sh         # Linux / macOS stop
-├── tests/
-│   └── test_rrf.py     # Unit tests for rrf.py
 ├── data/               # Persistent volume — your DB lives here
-├── conftest.py         # pytest path setup
 ├── docker-compose.yml
 ├── Dockerfile
 ├── requirements.txt
-├── requirements-dev.txt # Local test deps (pytest)
 └── .env.example         # Port configuration template
 ```
 
